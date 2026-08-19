@@ -1,37 +1,58 @@
 # KetrovakDB
 
-## Ketrovak Company Database & Python Analytics Project
+## Project Overview
 
-KetrovakDB is a SQL Server database project for managing employee and departmental information for **Ketrovak**.
+KetrovakDB is a relational database and data analytics project developed for **Ketrovak**. The project is designed to provide a structured, reliable, and scalable database for managing employee information and supporting data-driven decision-making.
 
-The project combines:
+The initial database contains **20 employees** distributed across five departments:
 
-- Microsoft SQL Server
-- SQL Server Management Studio (SSMS)
-- Python
-- Pandas
-- PyODBC
-- Visual Studio Code
-- Git/GitHub
+- Sales
+- Marketing
+- Accounting
+- IT
+- HR
 
-The database is designed using relational database best practices, including primary keys, foreign keys, unique constraints, validation rules, and normalized tables.
+The database is hosted on Microsoft SQL Server using the server **PETERM** and the database **KetrovakDB**.
 
 ---
 
-## 1. Project Overview
+## Project Objectives
 
-Ketrovak currently has five departments:
+The main objectives of the KetrovakDB project are to:
 
-1. Sales
-2. Marketing
-3. Accounting
-4. IT
-5. HR
+- Create a structured relational database for Ketrovak.
+- Store and manage employee information.
+- Manage departments and job titles.
+- Store employee contact information.
+- Prevent duplicate records.
+- Maintain data integrity using database constraints.
+- Establish relationships between related tables.
+- Connect Python to SQL Server.
+- Perform data analysis using Pandas.
+- Create data visualisations.
+- Support Power BI reporting and dashboards.
+- Enable multiple developers to collaborate using Git and GitHub.
+- Provide a scalable foundation for future business applications.
 
-The database contains 20 sample employees, with four employees assigned to each department.
+---
 
-### Database
+## Company Structure
+
+Ketrovak has five departments:
+
+| Department | Number of Employees |
+|------------|---------------------:|
+| Sales | 4 |
+| Marketing | 4 |
+| Accounting | 4 |
+| IT | 4 |
+| HR | 4 |
+| **Total** | **20** |
+
+---
+
+## Database Information
 
 ```text
-Database Name: KetrovakDB
 SQL Server: PETERM
+Database: KetrovakDB
